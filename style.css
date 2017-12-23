@@ -1,0 +1,22 @@
+p {
+  color: green;
+  font-family: 'Bungee', cursive;
+}
+
+h2 {
+  color: blue;
+  font-size: 20px;
+} /*comment in css*/
+.Punkt1 {color:red;}
+.Punkt3 {color:#9e5091;}
+.Punkt3:hover {color:pink;}
+
+body {
+  /*background-color: purple;*/
+}
+
+@media (min-width: 350px) and (max-width : 650px) {
+  body {
+    background-color: red;
+    }
+  }
